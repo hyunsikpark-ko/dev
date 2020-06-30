@@ -21,7 +21,6 @@ namespace x
      * clear container's all items.
      */
     public:     virtual void clear() = 0;
-
     /**
      * container class default constructor.
      */
