@@ -1,6 +1,8 @@
 #ifndef   __X__CONTAINER__HH__
 #define   __X__CONTAINER__HH__
 
+#include <x/type.hh>
+
 namespace x
 {
     class container
