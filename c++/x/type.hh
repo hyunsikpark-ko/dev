@@ -14,4 +14,11 @@ namespace x
     typedef bool            boolean;
 }
 
+#include <functional>
+
+namespace x
+{
+    template <typename T> using function = std::function<T>;
+}
+
 #endif // __X__TYPE__HH__
